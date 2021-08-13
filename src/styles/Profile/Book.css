@@ -1,0 +1,110 @@
+:root {
+	 --primary-color: #3e64ff;
+	 --secondary-color: #e6eef9;
+}
+
+
+.Book .container {
+	 position: absolute;
+	 left: 0;
+	 top: 0;
+	 right: 0;
+	 display: flex;
+	 align-items: center;
+	 justify-content: center;
+}
+.Book  .book-tabs {
+	 display: flex;
+	 position: relative;
+	 background-color: #fff;
+	 box-shadow: 0 0 1px 0 rgba(24, 94, 224, 0.15), 0 6px 12px 0 rgba(24, 94, 224, 0.15);
+	 border-radius: 99px;
+     padding: 0.75rem;
+
+}
+.Book  .book-tabs * {
+	 z-index: 2;
+}
+ input[type="radio"] {
+	 display: none;
+}
+
+.Book i {
+    padding-right: 5%;
+}
+
+.Book  .tab {
+	 display: flex;
+	 align-items: center;
+	 justify-content: center;
+	 height: 54px;
+	 width: 200px;
+	 font-size: 1.25rem;
+	 font-weight: 500;
+	 border-radius: 99px;
+	 cursor: pointer;
+	 transition: color 0.15s ease-in;
+     width: 48vw;
+    color: #333; font-family: 'Nunito', sans-serif; font-weight: 600;
+
+}
+
+.Book  input[type="radio"]:checked + label {
+	 color: var(--primary-color);
+}
+.Book input[type="radio"]:checked + label > .notification {
+	 background-color: var(--primary-color);
+	 color: #fff;
+}
+.Book  input[id="radio-1"]:checked ~ .glider {
+	 transform: translateX(0);
+}
+.Book  input[id="radio-2"]:checked ~ .glider {
+	 transform: translateX(100%);
+}
+.Book  input[id="radio-3"]:checked ~ .glider {
+	 transform: translateX(200%);
+}
+.Book  .glider {
+	 position: absolute;
+	 display: flex;
+	 height: 54px;
+	 width: 48vw;
+	 background-color: var(--secondary-color);
+	 z-index: 1;
+	 border-radius: 99px;
+	 transition: 0.25s ease-out;
+}
+ @media (max-width: 700px) {
+    .Book .book-tabs {
+		 transform: scale(0.6);
+	}
+}
+ 
+.Book .tab {
+    -webkit-tap-highlight-color: transparent;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.book-content {
+    margin-top: 18%;
+    padding: 5%;
+}
+
+.Book li {
+    list-style: none;
+    margin: 0%;
+}
+
+.Book ul {
+    padding: 0%;
+}
+
+.Book .favorites-list {
+    list-style: none;
+}

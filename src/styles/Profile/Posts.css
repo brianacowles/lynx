@@ -1,0 +1,50 @@
+.Posts h1 {
+    color: #333333; font-size: 1.2em;
+    display: inline-block;
+}
+
+.filter {
+    float: right;
+    width: 25px; height: 25px;
+    padding: 0; margin-right: 1%;
+    background-color: transparent;
+    border: none;
+}
+
+.filter img {
+    display: block;
+    height: 25px; width: 25px;
+}
+
+.Posts .menu {
+    visibility: hidden;
+    position: absolute;
+    background-color: white;
+    z-index: 1;
+    right: 0;
+    margin-right: 8%;
+    transition: all .1s ease-in-out;
+    padding: 2%;
+    box-shadow: 1px 1px 3px 0 rgb(16 42 92 / 30%);
+
+}
+
+.Posts .menu ul {
+    list-style-type: none;
+    margin: 0%; padding: 0%;
+    color: #333; font-family: 'Poppins', sans-serif;
+}
+
+.Posts .menu li {
+    padding: 3%;
+}
+
+
+.filter + .menu:active, .filter:focus + .menu {
+    visibility: visible;
+    transform: scale(1.1);
+}
+
+.posts-header {
+    margin-bottom: 2%;
+}

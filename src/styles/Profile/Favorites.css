@@ -1,0 +1,32 @@
+.Favorites h1 {
+    color: #333333; font-size: 1.2em;
+}
+
+.favorites-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.favorites-grid .favorites-product {
+    display: inline-block;
+    width: 100%;
+}
+
+.favorites-grid .favorites-product .product-image {
+    width: 100%;
+    height: 10em;
+    display: block;
+    object-fit: contain;
+}
+
+.favorites-grid .favorites-product .product-brand {
+    font-size: 0.9em;
+    text-align: center;
+    color: #333;
+}
+
+.favorites-grid .favorites-product .product-desc {
+    font-size: 0.9em; color: #333333; font-weight: 400;
+    text-align: center;
+}

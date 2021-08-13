@@ -1,0 +1,75 @@
+.Store {
+    position: relative;
+}
+
+.Store .Card h1 {
+    font-size: 1.3em !important;
+    padding: 0% !important;
+}
+
+.Store .Card img {
+    float: right;
+    display: inline;
+    width: 42%;
+    padding-left: 3%;
+}
+
+.Store h1 {
+    font-size: 1.5em;
+    padding-top: 3%;
+}
+
+.Store hr {
+    border-top: none;
+}
+
+.Store .store-buy {
+    width: 80%;
+    margin: 5% 10% 0 10%;
+    padding: 2%;
+    border-radius: 30px;
+    border: none;
+    font-family: 'Nunito', sans-serif;
+    background-color: #3e64ff;
+    color: white;
+}
+
+.Store .store-content {
+    margin-top: 30%;
+    background-color: #fafafa;
+    padding: 4%;
+    position: absolute;
+    padding-top: 6%;
+    border-radius: 25px;
+}
+
+.Store .store-img {
+    z-index: -1;
+    position: absolute;
+    top: -20px;
+    object-fit: contain;
+    width: 100%;
+}
+
+.Store .logo {
+    position: absolute;
+    color: white;
+    top: 50px;
+    font-size: 2em;
+    left: 20px;
+}
+
+.Store .brands {
+    overflow-x: scroll; 
+    white-space: nowrap; 
+}
+
+.Store .brand {
+    width: 25%;
+    display: inline;
+    padding: 4% 4% 2% 4%;
+}
+
+.Store .brands::-webkit-scrollbar {
+    display: none;
+}

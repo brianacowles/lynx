@@ -1,0 +1,16 @@
+.Recipe h1 {
+    color: #333333; font-size: 1.2em;
+    display: inline-block;
+}
+
+.Recipe ul {
+    padding-left: 40px !important;
+}
+
+.Recipe ul li {
+    list-style: disc !important;
+}
+
+.Recipe ol li {
+    list-style-type: decimal;
+}

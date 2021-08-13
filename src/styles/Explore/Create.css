@@ -1,0 +1,29 @@
+.create-button {
+    position:fixed;
+	width:60px;
+	height:60px;
+	bottom:0%;
+	right: 42%;
+	background-color:#3E64FF;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+    box-shadow: 2px 2px 3px 0 rgb(16 42 92 / 30%);
+    animation: 0.1s ease-out 0s 1 slideInFromBottom;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.create-icon {
+    margin-top: 21px;
+    font-size: 1.3em;
+}
+
+@keyframes slideInFromBottom {
+    0% {
+      transform: scale(0);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }

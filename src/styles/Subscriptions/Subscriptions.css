@@ -1,0 +1,44 @@
+.Subscriptions {
+    padding: 3%;
+}
+
+.Subscriptions h1 {
+    font-size: 1.7em;
+}
+
+.subscriptions-msg {
+    text-align: center;
+    margin-top: 3%;
+}
+
+.subscriptions-desc {
+    text-align: center;
+    font-size: 0.9em;
+}
+
+.past-orders {
+    margin-top: 10%;
+}
+
+.Subscriptions .fa-frown {
+    font-size: 6em;
+    display: block;
+    text-align: center;
+    margin-top: 10%;
+    color: #6262623f;
+}
+
+.Subscriptions .store-button {
+    border-radius: 50%;
+    border: none;
+    box-shadow: 1px 1px 3px 0 rgb(16 42 92 / 30%);
+    background-color: transparent;
+    height: 50px;
+    width: 50px;
+    font-size: 1.5em;
+    color: #3e64ff;
+}
+
+.store-highlight {
+    color: #3e64ff;
+}

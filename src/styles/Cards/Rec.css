@@ -1,0 +1,21 @@
+.user-rec {
+    grid-template-columns: 2fr 1fr;
+    gap: 0px;
+    display: grid;
+}
+
+.user-rec .user-rec-img img {
+    width: 100%;
+    max-height: 20vh;
+    object-fit: contain;
+}
+
+.user-rec .user-rec-text {
+    padding-top: 5%;
+}
+
+.Rec h1 {
+    color: #333333; font-size: 1.2em;
+    display: inline-block;
+    max-width: 70%;
+}

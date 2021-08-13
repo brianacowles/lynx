@@ -1,0 +1,25 @@
+.Locate {
+    background: center / cover no-repeat url("../../media/map.PNG");
+    height: 100vh;
+}
+
+.search-bar {
+    margin: 8% 10%;
+    width: 70%;
+    height: 4vh;
+    position: absolute;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 1px 1px 3px 0 rgb(16 42 92 / 30%);
+    padding-left: 40px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1em
+}
+
+.search-icon {
+    position: absolute;
+    z-index: 1;
+    width: 18px;
+    height: 18px;
+    margin: 38px 0 0 50px;
+}

@@ -1,0 +1,19 @@
+.ImageCard {
+    width: 100%;
+    margin: 1% 0 3% 0;
+    float: right;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 1px 1px 3px 0 rgb(16 42 92 / 30%);
+}
+
+.ImageCard .card-content {
+    padding: 2% 5% 5% 5%;
+}
+
+.ImageCard .card-img {
+    height: 20vh;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+}
